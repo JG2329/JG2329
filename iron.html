@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IRON TRENDY</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #69fac6;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Elephant';
+            font-size: 36px;
+            color: rgb(0, 0, 0);
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 223px);
+            grid-template-rows: repeat(3, 297px);
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .item {
+            width: 223px;
+            height: 297px;
+            border: 2px solid #69fac6;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Asegura que la imagen se recorte si es necesario para llenar el div */
+        }
+
+    </style>
+</head>
+
+<body>
+  <header>
+        IRON TRENDY
+    </header>
+
+     <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+ <li>
+            <a href="pines.html" class="compras">pines </a>
+ </li>
+    
+  <div class="container">
+    <div class="item">
+        <img src="img/ironlucki.webp" alt="">
+        <p class="caption"> Iron Lucki</p>
+    </div>
+    <div class="item">
+        <img src="img/ironluckigreen.webp" alt="">
+        <p class="caption"> Iron Lucki Green</p>
+    </div>
+    <div class="item">
+        <img src="img/ironsport.webp" alt="">
+        <p class="caption"> Iron Sport</p>
+    </div>
+    <div class="item">
+        <img src="img/ironsportgray.webp" alt="">
+        <p class="caption"> Iron Sport Gray</p>
+    </div>
+    <div class="item">
+        <img src="img/ironsportwhite.webp" alt="">
+        <p class="caption"> Iron Sport White</p>
+    </div>
+</div>
+
+
+</body>

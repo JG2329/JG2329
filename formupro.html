@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Proveedor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        input[type="number"], input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+
+        input[type="number"]:focus, input[type="text"]:focus, textarea:focus {
+            border-color: #007BFF;
+            outline: none;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            margin: 10px 0;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        button:active {
+            background-color: #1e7e34;
+        }
+
+        button[type="submit"]:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        /* Botones */
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .button-container button {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+
+<form action="..//jg/agregarpro.php" method="POST">
+    <h1>Formulario Proveedor</h1>
+
+    <div class="form-group">
+        <input type="number" name="ID" placeholder="ID" required><br>
+    </div>
+    
+    <div class="form-group">
+        <input type="text" name="Nombre" placeholder="Nombre del Proveedor" required><br>
+    </div>
+    
+    <div class="form-group">
+        <textarea name="Marcas" placeholder="Marcas" required></textarea><br>
+    </div>
+    
+    <div class="form-group">
+        <input type="text" name="Diseño" placeholder="Diseño" required><br>
+    </div>
+    
+    <div class="form-group">
+        <input type="text" name="Stock" placeholder="Stock" required><br>
+    </div>
+    
+    <div class="form-group">
+        <input type="text" name="Precio" placeholder="Precio" required><br>
+    </div>
+
+    <div class="button-container">
+        <button type="submit" name="agregar">Agregar</button>
+        <button type="submit" name="consultar">Consultar</button>
+    </div>
+    
+    <div class="button-container">
+        <button type="submit" name="modificar">Modificar</button>
+        <button type="submit" name="eliminar">Eliminar</button>
+    </div>
+</form>
+
+</body>
+</html>

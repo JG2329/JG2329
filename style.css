@@ -1,0 +1,169 @@
+header{
+     display: flex;
+     align-items: center;
+     border-bottom: 2px solid rgb(101, 216, 178);
+     background-color: black;
+     color: rgb(54, 226, 111);
+     font-size: 20px;
+     padding: 30px;
+     text-align: center;
+     font-family: Arial black, Helvetica, sans-serif;
+    }
+
+    .menu {
+     list-style: none;
+     padding: 20;
+     margin: 0;
+     background: rgb(135, 219, 139);
+     display: flex;
+     font-size: 30px;
+    }
+    .modelos {
+     list-style: none;
+     padding:100px;
+   
+    }
+
+     .nuevo {
+     list-style: none;
+     padding:20px;
+   
+ }
+ .compras {
+     list-style: none;
+     padding:100px;
+   
+ }
+
+
+ .visitas {
+     list-style: none;
+     padding:20px;
+   
+ }
+
+
+  .dandy {
+    position: absolute;  /* La posiciona relativo al primer contenedor con position relativo o al viewport */
+    top: 450px;          /* 100px desde arriba */
+    left: 50px;          /* 50px desde la izquierda */
+    width: 150px;        /* ancho opcional */
+    cursor: pointer;     /* cambia el cursor al pasar sobre la imagen, para indicar que es clickeable */
+  }
+
+  .dan {
+    position: absolute;  /* La posiciona relativo al primer contenedor con position relativo o al viewport */
+    top: 600px;          /* 100px desde arriba */
+    left: 50px;          /* 50px desde la izquierda */
+    width: 150px;        /* ancho opcional */
+    cursor: pointer;     /* cambia el cursor al pasar sobre la imagen, para indicar que es clickeable */
+  }
+
+  .cuadra {
+    position: absolute;  /* La posiciona relativo al primer contenedor con position relativo o al viewport */
+    top: 450px;          /* 100px desde arriba */
+    left: 300px;          /* 50px desde la izquierda */
+    width: 150px;        /* ancho opcional */
+    cursor: pointer;     /* cambia el cursor al pasar sobre la imagen, para indicar que es clickeable */
+  }
+
+  .cua {
+    position: absolute;  /* La posiciona relativo al primer contenedor con position relativo o al viewport */
+    top: 600px;          /* 100px desde arriba */
+    left: 300px;          /* 50px desde la izquierda */
+    width: 150px;        /* ancho opcional */
+    cursor: pointer;     /* cambia el cursor al pasar sobre la imagen, para indicar que es clickeable */
+  }
+   .iron {
+    position: absolute;  /* La posiciona relativo al primer contenedor con position relativo o al viewport */
+    top: 450px;          /* 100px desde arriba */
+    left: 550px;          /* 50px desde la izquierda */
+    width: 150px;        /* ancho opcional */
+    cursor: pointer;     /* cambia el cursor al pasar sobre la imagen, para indicar que es clickeable */
+  }
+
+  .iro {
+    position: absolute;  /* La posiciona relativo al primer contenedor con position relativo o al viewport */
+    top: 600px;          /* 100px desde arriba */
+    left: 550px;          /* 50px desde la izquierda */
+    width: 150px;        /* ancho opcional */
+    cursor: pointer;     /* cambia el cursor al pasar sobre la imagen, para indicar que es clickeable */
+  }
+
+  .fino {
+    position: absolute;  /* La posiciona relativo al primer contenedor con position relativo o al viewport */
+    top: 450px;          /* 100px desde arriba */
+    left: 800px;          /* 50px desde la izquierda */
+    width: 150px;        /* ancho opcional */
+    cursor: pointer;     /* cambia el cursor al pasar sobre la imagen, para indicar que es clickeable */
+  }
+
+  .fin {
+    position: absolute;  /* La posiciona relativo al primer contenedor con position relativo o al viewport */
+    top: 600px;          /* 100px desde arriba */
+    left: 800px;          /* 50px desde la izquierda */
+    width: 150px;        /* ancho opcional */
+    cursor: pointer;     /* cambia el cursor al pasar sobre la imagen, para indicar que es clickeable */
+  }
+  
+
+  .barbas {
+    position: absolute;  /* La posiciona relativo al primer contenedor con position relativo o al viewport */
+    top: 450px;          /* 100px desde arriba */
+    left: 1050px;          /* 50px desde la izquierda */
+    width: 150px;        /* ancho opcional */
+    cursor: pointer;     /* cambia el cursor al pasar sobre la imagen, para indicar que es clickeable */
+  }
+
+  .bar {
+    position: absolute;  /* La posiciona relativo al primer contenedor con position relativo o al viewport */
+    top: 600px;          /* 100px desde arriba */
+    left: 1050px;          /* 50px desde la izquierda */
+    width: 150px;        /* ancho opcional */
+    cursor: pointer;     /* cambia el cursor al pasar sobre la imagen, para indicar que es clickeable */
+  }
+
+  header h2 {
+     
+  margin: 0;
+  font-size: 4em;
+  color: #69fac6;
+  
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  left: 200px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    text-align: center;
+    margin: 10px;
+    width: 18%; /* Puedes ajustar este porcentaje según tus necesidades */
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+  
+
+ 
+  
+
+  

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DANDY</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #69fac6;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Elephant';
+            font-size: 36px;
+            color: rgb(32, 32, 32);
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 223px);
+            grid-template-rows: repeat(3, 297px);
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .item {
+            width: 223px;
+            height: 297px;
+            border: 2px solid #69fac6;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Asegura que la imagen se recorte si es necesario para llenar el div */
+
+        }
+    
+    </style>
+</head>
+
+<body>
+  <header>
+        DANDY
+    </header>
+    <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+ <li>
+            <a href="pines.html" class="compras">pines </a>
+ </li>
+    
+   <div class="container">
+    <div class="item">
+        <img src="img/dandangeles.webp" alt="LOS ANGELES DANDY CLUB">
+        <p class="caption">LOS ANGELES DANDY CLUB</p>
+    </div>
+    <div class="item">
+        <img src="img/dandjunior.jpg" alt="GORRA DANDY HATS x Junior H “Ángel Azul”">
+        <p class="caption">GORRA DANDY HATS x Junior H “Ángel Azul”</p>
+    </div>
+    <div class="item">
+        <img src="img/dandsad.jpg" alt="GORRA DANDY HATS x Junior H “Como Jordan”">
+        <p class="caption">GORRA DANDY HATS x Junior H “Como Jordan”</p>
+    </div>
+    <div class="item">
+        <img src="img/danmago.webp" alt="EL MAGO">
+        <p class="caption">EL MAGO</p>
+    </div>
+    <div class="item">
+        <img src="img/purpledand.webp" alt="LA DANDY CLUB PURPLE STORM">
+        <p class="caption">LA DANDY CLUB PURPLE STORM</p>
+    </div>
+</div>
+
+
+</body>
